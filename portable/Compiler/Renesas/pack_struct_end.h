@@ -43,3 +43,8 @@
         #pragma packoption
     #endif
 #endif
+#ifdef __RL
+    #ifdef __CCRL__
+        #pragma unpack
+    #endif
+#endif

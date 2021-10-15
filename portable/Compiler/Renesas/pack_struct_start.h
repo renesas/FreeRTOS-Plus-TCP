@@ -41,3 +41,8 @@
         #pragma pack
     #endif
 #endif
+#ifdef __RL
+    #ifdef __CCRL__
+        #pragma pack
+    #endif
+#endif
